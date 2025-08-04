@@ -25,6 +25,20 @@ https://mastery.games/flexboxzombies/...
 https://www.flexboxdefense.com
 
 */
+
+:root {
+    --tamanho: 150px;
+    --altura: 100px;
+    --titulo_principal: flexbox - CSS Flexbox
+    --titulo_secundario: Alinhamento de Blocos com Flexbox;
+    --texto: 200px;
+    --texto_secundario: 15px;
+    --preenchimento: 16px;
+    --corFundoUm: rgb(125, 47, 214);
+    --corFundoDois: rgb(98, 216, 177);
+}
+
+
 .container {
     display: flex;
     flex-direction: row;
@@ -36,7 +50,7 @@ https://www.flexboxdefense.com
     column-gap: 30px;
 
     /* INDIFERENTE */
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0);
     padding: 16px;
     height: 500px;
 }
@@ -47,8 +61,7 @@ https://www.flexboxdefense.com
     width: 50px;
     flex-grow: 0;
     flex-shrink: 1;
-    flex: 0 0 auto;
-    align-self: flex-start;
+    
 }
 
 .bloco-2 {
@@ -143,8 +156,8 @@ https://www.flexboxdefense.com
 .bloco-5, .bloco-6, .bloco-7, .bloco-8,
 .bloco-9, .bloco-10, .bloco-11, .bloco-12,
 .bloco-13, .bloco-14, .bloco-15 {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
