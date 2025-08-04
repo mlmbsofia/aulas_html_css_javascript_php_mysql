@@ -34,12 +34,12 @@ https://www.flexboxdefense.com
     --texto: 200px;
     --texto_secundario: 15px;
     --preenchimento: 16px;
-    --corFundoUm: rgb(125, 47, 214);
-    --corFundoDois: rgb(98, 216, 177);
+    --cor_fundo: rgba(0, 0, 0, 0);
 }
 
 
 .container {
+    background-color: rgba(0, 0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,13 +50,12 @@ https://www.flexboxdefense.com
     column-gap: 30px;
 
     /* INDIFERENTE */
-    background-color: rgba(0, 0, 0, 0);
-    padding: 16px;
-    height: 500px;
+    padding: 40px;
+    height: 100px;
 }
 
 .bloco-1 {
-    background-color: aquamarine;
+    background-color: rgb(255, 0, 0);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -65,7 +64,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-2 {
-    background-color: rgb(255, 214, 127);
+    background-color: rgb(184, 18, 18);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -73,7 +72,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-3 {
-    background-color: rgb(197, 127, 255);
+    background-color: rgb(226, 119, 19);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -81,73 +80,73 @@ https://www.flexboxdefense.com
 }
 
 .bloco-4 {
-    background-color: rgb(127, 146, 255);
+    background-color: rgb(219, 223, 11);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-5 {
-    background-color: rgb(129, 127, 255);
+    background-color: rgb(114, 207, 70);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-6 {
-    background-color: rgb(255, 157, 127);
+    background-color: rgb(52, 156, 31);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-7 {
-    background-color: rgb(240, 28, 28);
+    background-color: rgb(7, 233, 222);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-8 {
-    background-color: rgb(169, 74, 247);
+    background-color: rgb(46, 139, 201);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-9 {
-    background-color: rgb(245, 44, 77);
+    background-color: rgb(16, 35, 212);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-10 {
-    background-color: rgb(85, 233, 93);
+    background-color: rgb(93, 47, 219);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-11 {
-    background-color: rgb(176, 245, 15);
+    background-color: rgb(142, 15, 245);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-12 {
-    background-color: rgb(166, 230, 183);
+    background-color: rgb(197, 67, 214);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-13 {
-    background-color: rgb(21, 183, 204);
+    background-color: rgb(219, 110, 214);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-14 {
-    background-color: rgb(29, 202, 13);
+    background-color: rgb(219, 171, 194);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-15 {
-    background-color: rgb(212, 192, 233);
+    background-color: rgb(228, 215, 215);
     padding: 15px;
     width: 50px;
 }
